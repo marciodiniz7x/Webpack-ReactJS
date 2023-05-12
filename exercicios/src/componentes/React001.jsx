@@ -1,3 +1,7 @@
 import React from "react";
 
-export default () => <h1>Teste 001</h1>;
+const teste001 = () => {
+    return <h1>Teste 001</h1>;
+}
+
+export default teste001;
