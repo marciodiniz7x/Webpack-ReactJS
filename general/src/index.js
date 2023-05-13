@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import React002 from "./componentes/React002";
+import Multi, {BoaNoite} from "./componentes/React003";
 
-ReactDOM.render(<React002 nome="Márcio" />, document.querySelector('#root'));
+ReactDOM.render(
+    <div>
+        <Multi.BoaTarde nome="Ana" />
+        <BoaNoite nome="Bia"/>
+    </div>
+    , document.querySelector('#root'));
