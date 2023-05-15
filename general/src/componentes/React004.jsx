@@ -13,8 +13,7 @@ export default class Saudacao extends Component {
 
         super(props);
         this.setTipo = this.setTipo.bind(this);
-        this.setNome = this.setNome.bind(this);
-
+        
     }
 
     setTipo(e) {
@@ -39,9 +38,10 @@ export default class Saudacao extends Component {
                 <input type="text" placeholder="Tipo..." 
                     value={tipo} onChange={this.setTipo} />
                 <input type="text" placeholder="Nome..." 
-                    value={nome} onChange={this.setNome}/>
+                    value={nome} onChange={e => this.setNome(e)}/>
             </div>
         );
 
     }
+    
 }
