@@ -11,6 +11,10 @@ export default class Saudacao extends Component {
 
     setTipo(e) {
 
+        let i = 1
+        setInterval(() => {
+            this.setState({ tipo: ++i});
+        }, 1000);
         this.setState({ tipo: e.target.value});
 
     }
