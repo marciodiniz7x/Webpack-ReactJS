@@ -3,6 +3,11 @@ import React, {Component} from "react";
 
 export default class Saudacao extends Component {
 
+    state = {
+        tipo: "Fala",
+        nome: "Pedro"
+    }
+
     setTipo(e) {
 
         this.props.tipo = e.target.value;
@@ -11,7 +16,7 @@ export default class Saudacao extends Component {
 
     render() {
         
-        const  { tipo, nome } = this.props;
+        const  { tipo, nome } = this.state;
         return (
             <div>
                 <h1>{tipo} {nome}</h1>
