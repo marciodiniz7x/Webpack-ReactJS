@@ -7,9 +7,9 @@ import Pai from "./componentes/React006";
 ReactDOM.render(
     <div>
         <Pai nome="Paulo" sobrenome="Silva">
-            <Filho nome="Pedro"/>
-            <Filho nome="Paulo" sobrenome="Silva"/>
-            <Filho nome="Carla" sobrenome="Silva"/>
+            <Filho nome="Pedro" />
+            <Filho nome="Paulo" />
+            <Filho nome="Carla" />
         </Pai>
     </div>
     , document.querySelector('#root'));
