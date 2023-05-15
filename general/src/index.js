@@ -5,6 +5,6 @@ import Saudacao from "./componentes/React004";
 
 ReactDOM.render(
     <div>
-        <Saudacao tipo="Bom dia, " nome="Márcio" />
+        <Saudacao tipo="Bom dia" nome="Márcio" />
     </div>
     , document.querySelector('#root'));
