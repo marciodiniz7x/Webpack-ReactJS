@@ -6,9 +6,16 @@ import Calculator from './main/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+
+  <div>
+
+    <h1>Calculadora</h1>
+    <React.StrictMode>
     <Calculator />
-  </React.StrictMode>
+    </React.StrictMode>
+
+  </div>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
